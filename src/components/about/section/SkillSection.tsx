@@ -47,14 +47,21 @@ export function SkillSection() {
       <DescSection>
         <UnorderdList>
           <li>Spring Boot</li>
+          <li>React</li>
           <li>Next.js</li>
         </UnorderdList>
       </DescSection>
-      <SubTitle>DB</SubTitle>
+      <SubTitle>Other</SubTitle>
       <DescSection>
         <UnorderdList>
-          <li>PostgreSQL</li>
-          <li>SQL Server</li>
+          <li>
+            <Description>CI/CD</Description>
+            <UnorderdList>
+              <li>
+                <Description>Github Actions</Description>
+              </li>
+            </UnorderdList>
+          </li>
         </UnorderdList>
       </DescSection>
     </Section>

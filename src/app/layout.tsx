@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <GlobalNavigation />
-        <div className='p-5 tablet:p-20'>{children}</div>
+        <div className='min-h-screen p-5 tablet:p-20'>{children}</div>
         <Footer />
       </body>
     </html>

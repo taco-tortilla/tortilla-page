@@ -13,23 +13,13 @@ export function InterestedSection() {
       <DescSection>
         <UnorderdList>
           <li>
-            <Description>Java</Description>
+            <Description>Low layer area</Description>
             <UnorderdList>
               <li>
-                <Description>Server-side dev using Spring Boot</Description>
+                <Description>Language</Description>
               </li>
-            </UnorderdList>
-          </li>
-        </UnorderdList>
-      </DescSection>
-      <SubTitle>Other</SubTitle>
-      <DescSection>
-        <UnorderdList>
-          <li>
-            <Description>Java</Description>
-            <UnorderdList>
               <li>
-                <Description>Server-side dev using Spring Boot</Description>
+                <Description>OS</Description>
               </li>
             </UnorderdList>
           </li>

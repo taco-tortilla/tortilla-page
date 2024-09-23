@@ -1,7 +1,10 @@
+import { PageTitle } from '@/components/PageTitle';
+
 export default function Gallery() {
   return (
-    <div>
-      <h1>Gallery</h1>
-    </div>
+    <>
+      <PageTitle>Gallery</PageTitle>
+      <p className='text-center'>Comming soon...</p>
+    </>
   );
 }
