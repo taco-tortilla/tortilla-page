@@ -16,7 +16,6 @@ body {
   margin: 0;
   color: var(--foreground);
   background-image: url(../public/images/plants.jpg);
-  /* background-color: rgba(0, 0, 0, 0.2); */
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-repeat: no-repeat;

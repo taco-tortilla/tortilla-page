@@ -1,19 +1,14 @@
 {
-  "works": [
+  "products": [
     {
       "title": "Personal blog",
       "image": "/images/blog.png",
-      "tech": [
-        "TypeScript",
-        "React",
-        "Next.js",
-        "Vercel",
-        "TypeScript",
-        "React",
-        "Next.js",
-        "Vercel"
-      ],
-      "description": ""
+      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
+      "description": "Developed to try using NotionAPI. Notion as a headless CMS was used.",
+      "links": {
+        "github": "https://github.com/taco-tortilla/notion-blog",
+        "web": "https://tortilla-blog.vercel.app/"
+      }
     },
     {
       "title": "割り勘",
