@@ -1,3 +1,5 @@
+import { iconsPlugin, getIconCollections } from '@egoist/tailwindcss-icons';
+
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
@@ -19,6 +21,6 @@ const config: Config = {
       desktop: '1280px',
     },
   },
-  plugins: [],
+  plugins: [iconsPlugin({ collections: getIconCollections(['ri']) })],
 };
 export default config;

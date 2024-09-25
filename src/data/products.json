@@ -9,66 +9,6 @@
         "github": "https://github.com/taco-tortilla/notion-blog",
         "web": "https://tortilla-blog.vercel.app/"
       }
-    },
-    {
-      "title": "割り勘",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "なんか",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
-    },
-    {
-      "title": "Personal blog",
-      "image": "/images/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": ""
     }
   ]
 }

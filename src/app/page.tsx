@@ -6,7 +6,7 @@ export default function Top() {
           Hey, How are u?
         </h1>
         <h2 className='text-lg font-medium tablet:text-xl'>
-          I am living with Nature :)
+          I live with nature :)
         </h2>
       </div>
     </div>
