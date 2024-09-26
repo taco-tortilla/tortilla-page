@@ -29,7 +29,7 @@ export function DetailsModal({ isOpen, setIsOpen, selectedProduct }: Props) {
       style={customStyles}
       contentLabel={title}
       ariaHideApp={false}
-      className='fixed left-1/2 top-1/2 max-h-[70%] w-4/5 -translate-x-1/2 -translate-y-1/2 rounded-lg border-none bg-[rgba(127,127,130,0.95)] p-3 tablet:w-1/2 tablet:p-6'
+      className='fixed left-1/2 top-1/2 max-h-[70%] w-1/2 -translate-x-1/2 -translate-y-1/2 overflow-auto overscroll-none rounded-lg border-none bg-[rgba(127,127,130,0.95)] p-3 tablet:w-2/5 tablet:p-6 laptop:w-2/6'
     >
       <div className='flex justify-end pb-2 tablet:pb-5'>
         <span

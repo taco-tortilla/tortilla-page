@@ -50,7 +50,7 @@ export function FacvoriteSection() {
             <Description>Demolition</Description>
           </li>
           <li>
-            <Description>あの夏、一番静かな海</Description>
+            <Description>あの夏、いちばん静かな海。</Description>
           </li>
           <li>
             <Description>ソナチネ</Description>
