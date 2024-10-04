@@ -7,7 +7,7 @@ import '../globals.css';
 
 export const metadata: Metadata = {
   title: 'Tortilla',
-  description: 'This is a websit with a portfolio of tortilla(Taisei Hasegawa)',
+  description: 'This is a portfolio site of tortilla(Taisei Hasegawa)',
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <GlobalNavigation />
-        <div className='min-h-screen p-5 tablet:p-20'>{children}</div>
+        <div className='min-h-screen p-5 tablet:py-20'>{children}</div>
         <Footer />
       </body>
     </html>

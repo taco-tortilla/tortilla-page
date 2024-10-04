@@ -20,9 +20,6 @@ export function GlobalNavigation() {
           <ListItem>
             <Link href='/work'>Work</Link>
           </ListItem>
-          <ListItem>
-            <Link href='/gallery'>Gallery</Link>
-          </ListItem>
         </ul>
       </nav>
     </div>

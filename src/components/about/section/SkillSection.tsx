@@ -46,19 +46,47 @@ export function SkillSection() {
       <SubTitle>Frameworks</SubTitle>
       <DescSection>
         <UnorderdList>
-          <li>Spring Boot</li>
-          <li>React</li>
-          <li>Next.js</li>
+          <li>
+            <Description>Spring Boot</Description>
+          </li>
+          <li>
+            <Description>React</Description>
+          </li>
+          <li>
+            <Description>Next.js</Description>
+          </li>
         </UnorderdList>
       </DescSection>
       <SubTitle>Other</SubTitle>
       <DescSection>
         <UnorderdList>
           <li>
+            <Description>Git</Description>
+          </li>
+          <li>
             <Description>CI/CD</Description>
             <UnorderdList>
               <li>
                 <Description>Github Actions</Description>
+              </li>
+            </UnorderdList>
+          </li>
+          <li>
+            <Description>Docker</Description>
+            <UnorderdList>
+              <li>
+                <Description>Building a Dev Enviroment</Description>
+              </li>
+            </UnorderdList>
+          </li>
+          <li>
+            <Description>UI libraries/frameworks</Description>
+            <UnorderdList>
+              <li>
+                <Description>Material UI</Description>
+              </li>
+              <li>
+                <Description>Tailwind CSS</Description>
               </li>
             </UnorderdList>
           </li>
