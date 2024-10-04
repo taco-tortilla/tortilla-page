@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import profileImage from '../../../../public/images/profile.jpg';
 import links from '../../../data/links.json';
 import { Icon } from '../profile/Icon';
 import { Vsco } from '../profile/Vsco';
@@ -14,13 +15,16 @@ export function ProfileSection() {
   return (
     <Section>
       <div className='flex flex-col items-center justify-center tablet:py-10 '>
-        <Image
-          src='/images/profile.jpg'
-          width={1125}
-          height={1125}
-          alt={'aa'}
-          className='size-32 rounded-full tablet:size-40'
-        />
+        <div className='size-32 rounded-full bg-neutral-200 tablet:size-40'>
+          <Image
+            src={profileImage}
+            width={1125}
+            height={1125}
+            alt='profile image'
+            placeholder='blur'
+            className='size-32 rounded-full tablet:size-40'
+          />
+        </div>
         <div className='py-5 text-center'>
           <p className='text-2xl font-semibold'>Taisei Hasegawa</p>
           <p className='text-xl font-semibold'>(tortilla)</p>

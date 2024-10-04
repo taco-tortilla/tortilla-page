@@ -35,7 +35,6 @@ export function WorkItem({ productInfo }: { productInfo: ProductInfo }) {
             width={1920}
             height={1080}
             alt={title}
-            loading='lazy'
             className='w-full rounded-lg object-cover'
           />
         </div>
