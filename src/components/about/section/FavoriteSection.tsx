@@ -44,19 +44,23 @@ export function FacvoriteSection() {
       <DescSection>
         <UnorderdList>
           <li>
-            <Description>Diner</Description>
+            <Description>Diner / Barry Levinson</Description>
           </li>
           <li>
-            <Description>Demolition</Description>
+            <Description>Demolition / Jean-Marc Vallée</Description>
           </li>
           <li>
-            <Description>あの夏、いちばん静かな海。</Description>
+            <Description>
+              あの夏、いちばん静かな海。/ Takeshi Kitano
+            </Description>
           </li>
           <li>
-            <Description>ソナチネ</Description>
+            <Description>ソナチネ / Takeshi Kitano</Description>
           </li>
           <li>
-            <Description>退屈な日々にさようならを</Description>
+            <Description>
+              退屈な日々にさようならを / Rikiya Imaizumi
+            </Description>
           </li>
         </UnorderdList>
       </DescSection>

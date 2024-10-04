@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 import '../globals.css';
 
 export const metadata: Metadata = {
-  title: 'Tortilla',
+  title: 'tortilla',
   description: 'This is a portfolio site of tortilla(Taisei Hasegawa)',
 };
 

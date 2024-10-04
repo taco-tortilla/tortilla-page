@@ -41,7 +41,7 @@ export function WorkItem({ productInfo }: { productInfo: ProductInfo }) {
         </div>
         <div className='pt-5'>
           <h1 className='text-xl font-bold'>{title}</h1>
-          <div className='flex flex-wrap gap-2 pt-5'>
+          <div className='flex flex-wrap justify-center gap-2 pt-5'>
             {tech.map((item, index) => (
               <p
                 key={index}

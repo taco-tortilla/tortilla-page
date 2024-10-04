@@ -1,13 +1,32 @@
 {
   "products": [
     {
+      "title": "JWT with Go",
+      "image": "/images/works/jwt.png",
+      "tech": ["Go", "GORM", "Supabase"],
+      "description": "Implement API server for simple JWT authentication. Created to study the implementation of authentication systems. For easy implementation, used PostgreSQL with Supabase instead of docker for DB.",
+      "links": {
+        "github": "https://github.com/taco-tortilla/jwt-go"
+      }
+    },
+    {
       "title": "Personal blog",
-      "image": "/images/blog.png",
+      "image": "/images/works/blog.png",
       "tech": ["TypeScript", "React", "Next.js", "Vercel"],
-      "description": "Developed to try using NotionAPI. Notion as a headless CMS was used.",
+      "description": "Personal blog. I developed it to try to use NotionAPI. Notion as a headless CMS was used.",
       "links": {
         "github": "https://github.com/taco-tortilla/notion-blog",
         "web": "https://tortilla-blog.vercel.app/"
+      }
+    },
+    {
+      "title": "Portfolio",
+      "image": "/images/works/portfolio.png",
+      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
+      "description": "This portfolio site.",
+      "links": {
+        "github": "https://github.com/taco-tortilla/notion-blog",
+        "web": "https://tortilla.page"
       }
     }
   ]
