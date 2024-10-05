@@ -12,7 +12,7 @@
     {
       "title": "Personal blog",
       "image": "/images/works/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
+      "tech": ["TypeScript", "React", "Next.js", "Tailwind CSS", "Vercel"],
       "description": "Personal blog. I developed it to try to use NotionAPI. Notion as a headless CMS was used.",
       "links": {
         "github": "https://github.com/taco-tortilla/notion-blog",
@@ -22,7 +22,14 @@
     {
       "title": "Portfolio",
       "image": "/images/works/portfolio.png",
-      "tech": ["TypeScript", "React", "Next.js", "Vercel"],
+      "tech": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Vercel",
+        "CI/CD"
+      ],
       "description": "This portfolio site.",
       "links": {
         "github": "https://github.com/taco-tortilla/notion-blog",
