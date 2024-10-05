@@ -27,7 +27,7 @@ export function WorkItem({ productInfo }: { productInfo: ProductInfo }) {
       <button
         type='button'
         onClick={() => handleClick(productInfo)}
-        className='rounded-lg bg-neutral-500/80 p-5 transition-transform duration-200 hover:scale-105'
+        className='flex flex-col items-center rounded-lg bg-neutral-500/80 p-5 transition-transform duration-200 hover:scale-105'
       >
         <div className='h-auto rounded-lg bg-neutral-200'>
           <Image
