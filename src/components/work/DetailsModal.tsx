@@ -67,7 +67,7 @@ export function DetailsModal({ isOpen, setIsOpen, selectedProduct }: Props) {
                 rel='noopener noreferrer'
                 className='hover:cursor-pointer'
               >
-                <span className='i-ri-pages-line text-xl transition-transform duration-100 hover:scale-110  tablet:text-3xl' />
+                <span className='i-ri-window-2-fill text-xl transition-transform duration-100 hover:scale-110  tablet:text-3xl' />
               </a>
             )}
           </div>
