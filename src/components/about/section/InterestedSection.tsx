@@ -1,7 +1,6 @@
 import { Description } from '../Description';
 import { DescSection } from '../DescSection';
 import { Section } from '../Section';
-import { SubTitle } from '../SubTitle';
 import { Title } from '../Title';
 import { UnorderdList } from '../UnorderdList';
 
@@ -9,19 +8,20 @@ export function InterestedSection() {
   return (
     <Section>
       <Title>Interested</Title>
-      <SubTitle>Tech</SubTitle>
       <DescSection>
         <UnorderdList>
           <li>
-            <Description>Low layer area</Description>
+            <Description>Performance Tuning</Description>
             <UnorderdList>
               <li>
-                <Description>Language</Description>
-              </li>
-              <li>
-                <Description>OS</Description>
+                <Description>
+                  Recently, I have been studying performance tuning for React.
+                </Description>
               </li>
             </UnorderdList>
+          </li>
+          <li>
+            <Description>System design</Description>
           </li>
         </UnorderdList>
       </DescSection>

@@ -40,8 +40,18 @@ export function ProfileSection() {
             </Icon>
             <Icon url={linkURL.vsco}>
               <div className='text-3xl transition-transform duration-100 hover:scale-110 tablet:text-4xl'>
-                <Vsco style={{ width: '1em', height: '1em' }} color='#FCFEFE' />
+                <Vsco
+                  style={{
+                    width: '1em',
+                    height: '1em',
+                    transform: 'scale(0.85)',
+                  }}
+                  color='#FCFEFE'
+                />
               </div>
+            </Icon>
+            <Icon url='mailto:tortillataco0@gmail.com'>
+              <span className='i-ri-mail-fill text-3xl transition-transform duration-100 hover:scale-110 tablet:text-4xl' />
             </Icon>
           </div>
         </div>
