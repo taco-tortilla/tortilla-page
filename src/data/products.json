@@ -1,9 +1,18 @@
 {
   "products": [
     {
+      "title": "ToDo app with Go",
+      "image": "/images/works/todo.png",
+      "tech": ["Go", "GORM", "React", "Material UI", "PostgreSQL"],
+      "description": "Created to learn how to build API servers using standard libraries without frameworks. It is not deployed and can be up and running with docker.",
+      "links": {
+        "github": "https://github.com/taco-tortilla/simple-todo-app"
+      }
+    },
+    {
       "title": "JWT with Go",
       "image": "/images/works/jwt.png",
-      "tech": ["Go", "GORM", "Supabase"],
+      "tech": ["Go", "GORM"],
       "description": "Implement API server for simple JWT authentication. Created to study the implementation of authentication systems. For easy implementation, used PostgreSQL with Supabase instead of docker for DB.",
       "links": {
         "github": "https://github.com/taco-tortilla/jwt-go"
@@ -12,7 +21,7 @@
     {
       "title": "Personal blog",
       "image": "/images/works/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Tailwind CSS", "Vercel"],
+      "tech": ["TypeScript", "React", "Next.js", "Tailwind CSS"],
       "description": "Personal blog. I developed it to try to use NotionAPI. Notion as a headless CMS was used.",
       "links": {
         "github": "https://github.com/taco-tortilla/notion-blog",
@@ -22,14 +31,7 @@
     {
       "title": "Portfolio",
       "image": "/images/works/portfolio.png",
-      "tech": [
-        "TypeScript",
-        "React",
-        "Next.js",
-        "Tailwind CSS",
-        "Vercel",
-        "CI/CD"
-      ],
+      "tech": ["TypeScript", "React", "Next.js", "Tailwind CSS", "CI/CD"],
       "description": "This portfolio site.",
       "links": {
         "github": "https://github.com/taco-tortilla/tortilla-page",
