@@ -82,9 +82,8 @@ export function DetailsModal({ isOpen, setIsOpen, selectedProduct }: Props) {
             </p>
           ))}
         </div>
-        <p className='pt-8 text-sm'>{description}</p>
+        <p className='whitespace-pre-wrap pt-8 text-sm'>{description}</p>
       </div>
-      {/* </div> */}
     </Modal>
   );
 }

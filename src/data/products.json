@@ -1,9 +1,19 @@
 {
   "products": [
     {
+      "title": "Recognize Text",
+      "image": "/images/works/recognize_text.png",
+      "tech": ["TypeScript", "React", "Next.js"],
+      "description": "Web application that OCR. The text is recognized using Tesseract.js. Created to verify if it can be used for other applications.\n\nI didn't have to use Next.js... :D",
+      "links": {
+        "github": "https://github.com/taco-tortilla/recognize-text",
+        "web": "https://recognize-text.vercel.app/"
+      }
+    },
+    {
       "title": "ToDo app with Go",
       "image": "/images/works/todo.png",
-      "tech": ["Go", "GORM", "React", "Material UI", "PostgreSQL"],
+      "tech": ["Go", "GORM", "TypeScript", "React", "PostgreSQL"],
       "description": "Created to learn how to build API servers using standard libraries without frameworks. It is not deployed and can be up and running with docker.",
       "links": {
         "github": "https://github.com/taco-tortilla/simple-todo-app"
@@ -12,7 +22,7 @@
     {
       "title": "JWT with Go",
       "image": "/images/works/jwt.png",
-      "tech": ["Go", "GORM"],
+      "tech": ["Go", "Gin", "GORM"],
       "description": "Implement API server for simple JWT authentication. Created to study the implementation of authentication systems. For easy implementation, used PostgreSQL with Supabase instead of docker for DB.",
       "links": {
         "github": "https://github.com/taco-tortilla/jwt-go"
@@ -21,7 +31,7 @@
     {
       "title": "Personal blog",
       "image": "/images/works/blog.png",
-      "tech": ["TypeScript", "React", "Next.js", "Tailwind CSS"],
+      "tech": ["TypeScript", "React", "Next.js"],
       "description": "Personal blog. I developed it to try to use NotionAPI. Notion as a headless CMS was used.",
       "links": {
         "github": "https://github.com/taco-tortilla/notion-blog",
@@ -31,7 +41,7 @@
     {
       "title": "Portfolio",
       "image": "/images/works/portfolio.png",
-      "tech": ["TypeScript", "React", "Next.js", "Tailwind CSS", "CI/CD"],
+      "tech": ["TypeScript", "React", "Next.js"],
       "description": "This portfolio site.",
       "links": {
         "github": "https://github.com/taco-tortilla/tortilla-page",
