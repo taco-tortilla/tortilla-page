@@ -38,13 +38,15 @@ export function DetailsModal({ isOpen, setIsOpen, selectedProduct }: Props) {
         />
       </div>
       <div className='flex h-auto justify-center'>
-        <Image
-          src={image}
-          width={1920}
-          height={1080}
-          alt={title}
-          className='w-full rounded-lg object-cover'
-        />
+        <div className='aspect-video w-full rounded-lg bg-neutral-200'>
+          <Image
+            src={image}
+            width={1920}
+            height={1080}
+            alt={title}
+            className='aspect-video w-full rounded-lg object-cover'
+          />
+        </div>
       </div>
       <div className='pt-5'>
         <h1 className='text-center text-xl font-bold'>{title}</h1>

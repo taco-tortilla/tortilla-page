@@ -29,13 +29,13 @@ export function WorkItem({ productInfo }: { productInfo: ProductInfo }) {
         onClick={() => handleClick(productInfo)}
         className='flex flex-col items-center rounded-lg bg-neutral-500/80 p-5 transition-transform duration-200 hover:scale-105'
       >
-        <div className='h-auto rounded-lg bg-neutral-200'>
+        <div className='aspect-video w-full rounded-lg bg-neutral-200'>
           <Image
             src={image}
             width={1920}
             height={1080}
             alt={title}
-            className='w-full rounded-lg object-cover'
+            className='aspect-video w-full rounded-lg object-cover '
           />
         </div>
         <div className='pt-5'>
