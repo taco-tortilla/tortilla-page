@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Dispatch, SetStateAction } from 'react';
+import { Dispatch, SetStateAction, useEffect } from 'react';
 import Modal from 'react-modal';
 
 import { ProductInfo } from '@/types/works.types';
@@ -21,6 +21,15 @@ export function DetailsModal({ isOpen, setIsOpen, selectedProduct }: Props) {
   function handleClose() {
     setIsOpen(false);
   }
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
 
   return (
     <Modal

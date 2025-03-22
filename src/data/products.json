@@ -1,6 +1,15 @@
 {
   "products": [
     {
+      "title": "Tetris",
+      "image": "/images/works/tetris.png",
+      "tech": ["Java", "Swing"],
+      "description": "I created this during the year-end and New Year holidays to pass the time. It was my first time making a game, but I enjoyed learning how to implement game loops and collision detection.",
+      "links": {
+        "github": "https://github.com/taco-tortilla/tetris-java"
+      }
+    },
+    {
       "title": "Recognize Text",
       "image": "/images/works/recognize_text.png",
       "tech": ["TypeScript", "React", "Next.js"],
